@@ -1,4 +1,10 @@
-export default {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+var _default = {
   //Dark Color
   BLACK: '#000000',
   GRAY: '#808080',
@@ -89,7 +95,6 @@ export default {
   BASIL: '#789262',
   EGGPLANT: '#614051',
   NIGHT_PURPLE: '#4F2D52',
-
   // Light Colors
   WHITE: '#FFFFFF',
   SILVER: '#C0C0C0',
@@ -185,5 +190,7 @@ export default {
   LIGHT_MOSS_GREEN: '#ADDFAD',
   PISTACHIO: '#93C572',
   CELERY: '#B4C04C',
-  MINT_GREEN: '#98FF98',
+  MINT_GREEN: '#98FF98'
 };
+exports["default"] = _default;
+//# sourceMappingURL=colors.dev.js.map

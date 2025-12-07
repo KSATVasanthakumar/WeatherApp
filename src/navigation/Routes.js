@@ -5,10 +5,11 @@ import AuthStack from './AuthStack';
 import MainStack from './MainStack';
 
 const Routes = () => {
+  const isAuthToken = true;
   return (
     <NavigationContainer>
       {/* {AuthStack()} */}
-      {MainStack()}
+      {isAuthToken ? MainStack() : AuthStack()}
     </NavigationContainer>
   );
 };
