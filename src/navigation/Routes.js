@@ -5,7 +5,7 @@ import AuthStack from './AuthStack';
 import MainStack from './MainStack';
 
 const Routes = () => {
-  const isAuthToken = true;
+  const isAuthToken = false;
   return (
     <NavigationContainer>
       {/* {AuthStack()} */}
