@@ -1,0 +1,1 @@
+{"version":3,"sources":["fontFamily.js"],"names":["regular"],"mappings":";;;;;;eAAe;AACbA,EAAAA,OAAO,EAAE;AADI,C","sourcesContent":["export default {\n  regular: 'RubikBubbles-Regular',\n};\n"],"file":"fontFamily.dev.js"}

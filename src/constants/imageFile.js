@@ -3,4 +3,6 @@ export default {
   home: require('../assets/images/home.png'),
   city: require('../assets/images/buildings.png'),
   settings: require('../assets/images/settings.png'),
+  welcome: require('../assets/images/welcome.gif'),
+  next: require('../assets/images/next.png'),
 };
