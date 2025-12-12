@@ -5,4 +5,6 @@ export default {
   settings: require('../assets/images/settings.png'),
   welcome: require('../assets/images/welcome.gif'),
   next: require('../assets/images/next.png'),
+  sun: require('../assets/images/sun.png'),
+  sunwithcloud: require('../assets/images/suncloud.png'),
 };
