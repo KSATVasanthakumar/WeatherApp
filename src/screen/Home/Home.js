@@ -132,7 +132,7 @@ const Home = () => {
                   <Text style={styles.cardText}>Air Condition</Text>
                   <Pressable
                     style={styles.seeMoreBtn}
-                    onPress={() => navigation.navigate('Detail')}
+                    onPress={() => navigation.navigate('Detail', { airData })}
                   >
                     <Text style={styles.seeMoreTxt}>See More</Text>
                   </Pressable>
@@ -208,7 +208,7 @@ const styles = StyleSheet.create({
     marginTop: 20,
   },
   todayContainer: {
-    paddingHorizontal: 20,
+    paddingHorizontal: 5,
     marginTop: 20,
   },
   fltHeading: {

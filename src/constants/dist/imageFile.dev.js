@@ -16,7 +16,8 @@ var _default = {
   wind: require('../assets/images/wind.png'),
   reel: require('../assets/images/reel.png'),
   drop: require('../assets/images/drop.png'),
-  uv: require('../assets/images/uv.png')
+  uv: require('../assets/images/uv.png'),
+  back: require('../assets/images/back.png')
 };
 exports["default"] = _default;
 //# sourceMappingURL=imageFile.dev.js.map

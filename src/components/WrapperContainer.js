@@ -24,6 +24,7 @@ const styles = StyleSheet.create({
   },
   viewStyles: {
     flex: 1,
+    paddingHorizontal: 20,
     backgroundColor: colors.MIDNIGHT_BLUE,
     paddingTop: Platform.OS == 'android' ? StatusBar.currentHeight : 0,
   },
