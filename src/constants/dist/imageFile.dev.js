@@ -1,4 +1,10 @@
-export default {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+var _default = {
   map: require('../assets/images/map.png'),
   home: require('../assets/images/home.png'),
   city: require('../assets/images/buildings.png'),
@@ -10,5 +16,7 @@ export default {
   wind: require('../assets/images/wind.png'),
   reel: require('../assets/images/reel.png'),
   drop: require('../assets/images/drop.png'),
-  uv: require('../assets/images/uv.png'),
+  uv: require('../assets/images/uv.png')
 };
+exports["default"] = _default;
+//# sourceMappingURL=imageFile.dev.js.map
